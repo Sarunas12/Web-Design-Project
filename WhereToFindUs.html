@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description"content="Clothing Website">
+    <meta name="keywords" content="Sales,Clothes,Jumpers,Tshirts">
+    
+    <title>DX Clothing</title>
+    <link rel="stylesheet" type="text/css"href="style.css"/>
+    
+    </head>
+    <body> 
+
+  <main class="topnav">
+  <a href ="index.html">Home</a>
+  <a href="WhereToFindUs.html">Where to find us</a>
+  <a href="contact.html">Contact</a>
+  <a href="Products.html">Our Products</a>
+</main>
+        
+        
+
+        
+    <header>
+ <img src="Images/LOGO.png" alt="LOGO" height="100"
+      width="100">
+        
+    <h1>Where to find us!</h1>
+        <nav>
+            <header>
+            <main>
+                <main id="googleMap" style="width:100%;height:400px;"></main>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+                
+                <h1>We are located in Dublin, Ireland in a small town called Finglas the co-ordinates are 51.508742,-0.120850</h1>
+      
+                
+                </main>
+                <footer> 
+                    
+                <center><P>Copyright 2020 Sarunas Zenkovas</P></center>
+        
+                </footer>
+            
+            
+            </header>
+        
+        </nav>
+        
+        </header>
+    
+    </body>
+
+</html>
